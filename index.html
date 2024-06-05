@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata about the document -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+
+    <!-- Link to external CSS files for styling -->
+    <link rel="stylesheet" href="./assets/css/form.css">
+    <link rel="stylesheet" href="./assets/css/navbar.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <!-- Link to external JavaScript file for functionality, loaded with defer to ensure it runs after the document has been parsed -->
+    <script src="./assets/js/logic.js" defer></script>
+</head>
+<body>
+    <!-- Header section containing the navigation bar -->
+    <header>
+        <nav>
+            <!-- Button to toggle the theme -->
+            <button id="theme-toggler"></button>
+        </nav>
+    </header>
+
+    <!-- Main content area -->
+    <main>
+        <!-- Left section with a decorative circle and blog title -->
+        <section id="left">
+            <div class="circle">
+                <h1>My First Blog</h1>
+            </div>
+        </section>
+
+        <!-- Right section containing the blog form -->
+        <section id="right">
+            <form id="blog-form">
+                <h2>What's on your mind?</h2>
+                
+                <!-- Username input field -->
+                <label for="username">Username</label>
+                <input required type="text" name="username">
+                
+                <!-- Title input field -->
+                <label for="title">Title</label>
+                <input required type="text" name="title">
+                
+                <!-- Content textarea field -->
+                <label for="content">Content</label>
+                <textarea required name="content"></textarea>
+                
+                <!-- Submit button -->
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Add JQuery library -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Link to external JavaScript file for form functionality -->
+    <script src="./assets/js/form.js"></script>
+</body>
+</html>

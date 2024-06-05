@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata about the document -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs</title>
+
+    <!-- Link to external CSS files for styling -->
+    <link rel="stylesheet" href="./assets/css/blog.css">
+    <link rel="stylesheet" href="./assets/css/navbar.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <!-- Link to external JavaScript files for functionality, loaded with defer to ensure they run after the document has been parsed -->
+    <script src="./assets/js/blog.js" defer></script>
+    <script src="./assets/js/logic.js" defer></script>
+</head>
+<body>
+    <!-- Header section containing the navigation bar -->
+    <header>
+        <nav class="blog-nav">
+            <!-- Blog title -->
+            <h2>My First Blog</h2>
+            <!-- Navigation buttons -->
+            <div>
+                <button id="go-back"><span>🡆</span>Back</button>
+                <button id="theme-toggler"></button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main content area -->
+    <main>
+        <!-- List of blogs -->
+        <ul id="blogs-list"></ul>
+    </main>
+
+    <!-- Footer content -->
+    <footer>
+        <h3>Made with 💗 by Brian T.</h3>
+        <!-- Portfolio -->
+        <p>
+            Portfolio:
+            <a href="/portfolio.html" target="_blank">Brian</a>
+        <p>
+        <!-- Blog -->
+        <p>
+            Blog:
+            <a href="#" target="_blank">Full-Stack Blog</a>
+        <p>
+        <!-- Portfolio -->
+        <p>
+            Email:
+            <a href="#" target="_blank">bptiburcio@gmail.com</a>
+        <p>
+    </footer>
+
+    <!-- jQuery library included at the end of the body to ensure it loads after other content -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</body>
+</html>
