@@ -8,7 +8,6 @@ This project allows users to create multiple blog posts and displays them nicely
 (Github Repo URL)[https://github.com/BrianTib/columbia-bootcamp-challenge-4]
 (Github Pages URL)[https://briantib.github.io/columbia-bootcamp-challenge-4/]
 
-
 ## Screenshots
 ![Main Page Light](/assets/screenshots/index-light.png?raw=true)
 ![Main Page Dark](/assets/screenshots/index-dark.png?raw=true)
